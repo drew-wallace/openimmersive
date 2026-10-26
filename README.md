@@ -48,3 +48,26 @@ While this project aims to remain relatively concise and lightweight to allow fo
 
 Special thanks to [Zachary Handshoe](https://www.linkedin.com/in/zachary-handshoe/) from [SpatialGen](https://spatialgen.com/) & [Raphael Dobers](https://github.com/rdotrifork) for their contributions.
 Special thanks to [SINTEF](https://www.sintef.no/) and [Gassco](https://gassco.eu/) for supporting development.
+
+## MVC MKV playback
+
+With the MVC-enabled OpenImmersiveLib version, **Open from Files** accepts Blu-ray
+MVC `.mkv`/`.mk3d` files, and **Enter Stream URL** accepts seekable HTTP(S) MKV
+resources. Select MVC explicitly for URLs without a filename extension. The player
+uses a rectangular stereo screen; its options panel provides embedded audio-track
+selection and eye swapping. Existing HLS, spatial, SBS/over-under and AIV playback
+keep their existing paths.
+
+The app permits unencrypted **local-network** HTTP media and requests local-network
+access. Remote services should use HTTPS. Servers must return valid byte ranges;
+there is no full-file download fallback. SMB and UPnP discovery are not included.
+
+MVC acceptance initially targets M5 Vision Pro. Supported input is progressive,
+8-bit, 4:2:0 Blu-ray MVC within 1920×1088, with channel-based PCM output; Atmos/DTS:X
+objects, subtitles and general 2D MKV playback are not supported. See the library's
+MVC documentation for hardware validation status and native dependency notices.
+
+For integration testing, temporarily point the Xcode package dependency at your
+OpenImmersiveLib fork's integration commit (or use a local package override). Do
+not include a personal fork override in an upstream app PR. Merge/release the
+library support before raising the app's minimum library version.
