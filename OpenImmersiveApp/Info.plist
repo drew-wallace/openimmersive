@@ -12,7 +12,7 @@
 		<dict/>
 	</dict>
 	<key>NSLocalNetworkUsageDescription</key>
-	<string>Play original MVC MKV movies from a media server on your local network.</string>
+	<string>Play videos from media servers on your local network.</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsLocalNetworking</key>
