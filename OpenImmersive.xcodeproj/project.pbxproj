@@ -376,10 +376,10 @@
 /* Begin XCRemoteSwiftPackageReference section */
 		A28F52672CE9A12300D39FF3 /* XCRemoteSwiftPackageReference "openimmersivelib" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/acuteimmersive/openimmersivelib";
+			repositoryURL = "https://github.com/drew-wallace/openimmersivelib";
 			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 1.6.3;
+				kind = revision;
+				revision = fe7b9c65c06dbf70d022bcb75e754d79f9cd8d71;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

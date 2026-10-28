@@ -1,13 +1,12 @@
 {
-  "originHash" : "fe74f9e4a3a9ec6fb219308da547a36fe828e569d18c51bf7f7cfe76ef58ba07",
+  "originHash" : "d7ffcbb875c21bb25a90a9893c854b990741823d9562d2a85aaf326219c0faa6",
   "pins" : [
     {
       "identity" : "openimmersivelib",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/acuteimmersive/openimmersivelib",
+      "location" : "https://github.com/drew-wallace/openimmersivelib",
       "state" : {
-        "revision" : "670e0bc6701095d0b2aa5b80d0b8258763b57632",
-        "version" : "1.6.3"
+        "revision" : "fe7b9c65c06dbf70d022bcb75e754d79f9cd8d71"
       }
     }
   ],
