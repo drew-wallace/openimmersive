@@ -48,3 +48,12 @@ While this project aims to remain relatively concise and lightweight to allow fo
 
 Special thanks to [Zachary Handshoe](https://www.linkedin.com/in/zachary-handshoe/) from [SpatialGen](https://spatialgen.com/) & [Raphael Dobers](https://github.com/rdotrifork) for their contributions.
 Special thanks to [SINTEF](https://www.sintef.no/) and [Gassco](https://gassco.eu/) for supporting development.
+
+## Local network playback
+
+Allow local-network access when opening videos from a local media server. The app
+permits local HTTP resources; remote services should use HTTPS. Seekable resources
+must provide valid byte-range responses.
+
+For development, use a local package override or pin the library fork to the
+review-stack tip. Keep personal dependency overrides out of upstream changes.
